@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+}
+.left-container {
+  width: 30vw;
+  height: 100vh;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 20px 20px;
+  margin: 8px 8px;
+  gap: 8px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.a-container {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  gap: 16px;
+}
+.spotify-container {
+  font-weight: 400;
+  gap: 2px;
+}
+.a-container img {
+  width: 30px;
+}
