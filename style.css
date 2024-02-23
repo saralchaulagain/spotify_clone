@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +8,11 @@ body {
   background-color: #000000;
 }
 .left-container {
-  width: 30vw;
+  width: 290px;
   height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 .nav-bar {
   display: flex;
@@ -20,7 +23,7 @@ body {
   margin: 8px 8px;
   gap: 8px;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
 }
 .a-container {
@@ -37,4 +40,60 @@ body {
 }
 .a-container img {
   width: 30px;
+}
+
+/* Library and playbox design */
+.playlist {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 8px 8px;
+  margin: 8px 8px;
+  gap: 8px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  gap: 1rem;
+}
+.your-playlist {
+  display: flex;
+  justify-content: space-between;
+}
+.a-library {
+  padding: 18px 18px;
+  margin: 6px 0;
+  gap: 12px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+.your-playlist img {
+  width: 30px;
+}
+.a-library img {
+  width: 30px;
+}
+.create-playlist {
+  border-radius: 8px;
+  padding: 1.25rem;
+  color: white;
+  font-size: 0.85rem;
+  background-color: #242424;
+}
+.create-playlist h4 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.create-playlist p {
+  margin: 1.25rem 0;
+  font-weight: 400;
+}
+.create-playlist button {
+  width: 130px;
+  height: 30px;
+  border-radius: 100px;
+  font-weight: bold;
 }
