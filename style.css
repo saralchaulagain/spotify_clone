@@ -7,8 +7,16 @@
 body {
   background-color: #000000;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
 .left-container {
-  width: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 280px;
   height: 100vh;
   position: relative;
   top: 0;
@@ -20,8 +28,7 @@ body {
   flex-direction: column;
   background-color: #121212;
   border-radius: 8px;
-  padding: 20px 20px;
-  margin: 8px 8px;
+  padding: 10px 20px;
   gap: 8px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
@@ -49,20 +56,18 @@ body {
   flex-direction: column;
   background-color: #121212;
   border-radius: 8px;
-  padding: 8px 8px;
-  margin: 8px 8px;
-  gap: 8px;
+  padding: 0px 8px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   font-style: normal;
-  gap: 1rem;
 }
 .your-playlist {
   display: flex;
   justify-content: space-between;
+  padding-right: 10px;
 }
 .a-library {
-  padding: 18px 18px;
+  padding: 18px 12px;
   margin: 6px 0;
   gap: 12px;
   height: 40px;
@@ -79,20 +84,24 @@ body {
 }
 .create-playlist {
   border-radius: 8px;
-  padding: 1.25rem;
+  padding: 1.1rem;
   color: white;
   background-color: #242424;
   font-size: 0.85rem;
+  margin-bottom: 16px;
+  margin-top: 10px;
 }
 .create-playlist h4 {
   font-weight: 500;
   font-size: 1rem;
 }
 .create-playlist p {
-  margin: 1.25rem 0;
+  margin: 8px 0;
+  line-height: 22px;
   font-weight: 400;
 }
 .create-playlist button {
+  margin-top: 10px;
   padding: 8px 15px;
   border-radius: 100px;
   font-weight: bolder;
@@ -101,6 +110,7 @@ body {
 
 /* Left content footer part */
 .footer-part {
+  margin: 20px 0;
   padding: 15px;
 }
 .content-1 {
@@ -125,6 +135,7 @@ body {
   color: #a7a7a7;
 }
 .footer-part button {
+  margin-top: 40px;
   padding: 5px 10px;
   width: 90px;
   display: flex;
