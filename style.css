@@ -103,8 +103,6 @@ body {
 .footer-part {
   padding: 15px;
 }
-.footer-content {
-}
 .content-1 {
   display: flex;
   flex-wrap: wrap;
@@ -139,4 +137,13 @@ body {
 }
 button img {
   width: 16px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.fixed-part {
+  display: flex;
+  justify-content: space-between;
+  background-color: linear-gradient(#ffffff, rgb(255, 122, 89));
 }
